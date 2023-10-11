@@ -1,8 +1,8 @@
 .table_header {
-  font-size: 1.8em;
+  font-size: 2.0em;
   font-weight: bold;
   text-transform: uppercase;
-  color: black; 
+  color: white; 
 }
 
 .table_image {
@@ -11,70 +11,76 @@
 
 table {
   border-collapse: collapse; 
-  width: 80%;
+  width: 90%;
   margin: 20px auto;
-  border: 2px solid #ddd; 
+  border: 2px solid white; 
 }
 
 td {
-  padding: 15px;
-  font-size: 1.2em;
+  padding: 10px;
+  font-size: 1.3em;
   text-align: left;
 }
 
 .left_border {
-  border-left: 4px solid #000000; 
-  font-size: 1.1em;
+  border-left: 4px solid white; 
+  font-size: 1.0em;
   font-family: 'Arial', sans-serif; 
 }
 
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #f5f5f5; 
+  color: white;
+  background-color: #27205A; 
 }
 
 tr {
-  border-bottom: 1px solid #ddd; 
+  border-bottom: 1px solid white; 
 }
 
 h1 {
   text-align: center;
-  font-size: 3.5em;
+  font-size: 4em;
   margin-bottom: 20px;
-  color: #333; 
+  color: white; 
 }
 
 h1:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 img {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
+  margin: 5px auto;
+  border: 2px solid white;
   transition: transform 0.5s ease; 
 }
 
 img:hover {
-  transform: scale(1.1); 
-}
-
-.venus:hover, .jupiter:hover, .saturn:hover, .mercury:hover {
-  font-weight: bold;
-  color: white;
+  transform: scale(1.2); 
 }
 
 .venus:hover {
-  background-color: #E87AB1; 
-}
+  background-color: #E87AB1;
+  font-weight: bold;
+  color: #A3577D;
+}  
 
 .jupiter:hover {
   background-color: #7ABBE8; 
+  font-weight: bold;
+  color: #5483A3;
 }
 
 .saturn:hover {
   background-color: #FCB05B; 
+    font-weight: bold;
+  color: #C88C49;
 }
 
 .mercury:hover {
   background-color: #D54747; 
+  font-weight: bold;
+  color: #8C3030;
 }
